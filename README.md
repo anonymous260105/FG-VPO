@@ -29,7 +29,7 @@ wget https://huggingface.co/llava/vision_tower-clip336/resolve/main/vision_tower
 
 ## Merge FG-VPO Model
 
-Run the following command to merge the base model with the fine-tuned LoRA model:
+Run the following command to merge the base model with the checkpoint:
 
 ```bash
 python run/merge/merge_llava_lora.py \
